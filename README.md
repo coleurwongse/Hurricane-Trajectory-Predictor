@@ -1,5 +1,6 @@
 # Hurricane Trajectory Prediction with an LSTM
 In this project, we use an LSTM to predict the trajectories of hurricanes. We use the [Hurricane Database dataset from Unisys Weather](http://weather.unisys.com/hurricane/atlantic/). Here we preprocess the data, train a recurrent neural network on some of the samples, and compare our predictions against the real hurricanes. Uses data from 1851-2023.
+
 WARNING: Some of the data may contain NaNs, which will throw an exception; to prevent this, search through hurricane_data.csv for them.
 
 ## Getting Started
